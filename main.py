@@ -1,4 +1,4 @@
-from os import getcwd, system, listdir, rename, remove
+from os import getcwd, system, listdir, remove
 import curses
 from sys import exit
 from cryptography.fernet import Fernet
