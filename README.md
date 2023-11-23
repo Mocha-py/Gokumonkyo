@@ -11,6 +11,8 @@ This program is inspired by the prison realm (Gokumonkyō) from Jujutsu Kaisen. 
 ## Usage
 
 Please use the arrow keys to navigate the program, and use the space bar to select an option.
+Move the files you wish to encrypt or decrypt into the "files" folder
+If you are decrypting, please also insert your key into the key folder
 
 ## Features
 
@@ -22,6 +24,7 @@ Please use the arrow keys to navigate the program, and use the space bar to sele
 
 - Encrypting new files when an encryption key file is already in the key folder WILL overwrite the key and the files encrypted by it WILL be lost PERMANENTLY.
 - Removing the .gkmk extension from an encrypted file will mean it is NOT detected when attempting to decrypt it.
+- Changing the name of key files or encrypted files will mean they are not detected.
 
 Please move your keys after generating them, I am not responsible if you lose your files.
 ## Documentation
